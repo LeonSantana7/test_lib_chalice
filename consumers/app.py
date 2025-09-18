@@ -66,7 +66,7 @@ def delete_user():
 
 ##Company
 
-@app.route('/consumers/company/', methods = ['GET'])
+@app.route('/consumers/company', methods = ['GET'])
 def list_companies():
     response = {
         "statusCode": 200,
