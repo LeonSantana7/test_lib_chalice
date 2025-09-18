@@ -19,7 +19,7 @@ companies = {
 }
 
 
-@app.route('/consumers/person/', methods = ['GET'])
+@app.route('/consumers/person', methods = ['GET'])
 def list_person():
     response = {
         "statusCode": 200,
